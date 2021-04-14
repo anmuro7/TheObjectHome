@@ -1,0 +1,4 @@
+#Tue Jan 02 18:50:40 CET 2018
+base.0=C\:\\Users\\Toni\\Desktop\\backup 19-12\\App_The_Object_Home\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.0=classes.dex
+file.0=C\:\\Users\\Toni\\Desktop\\backup 19-12\\App_The_Object_Home\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

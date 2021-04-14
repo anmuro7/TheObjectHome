@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/dir_inicio"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+
+            android:id="@+id/dir_decoracion"
+            android:icon="@drawable/jarron"
+            android:title="Decoración" />
+        <item
+            android:id="@+id/dir_muebles"
+            android:icon="@drawable/mueble"
+            android:title="Mobiliario" />
+        <item
+            android:id="@+id/dir_iluminacion"
+            android:icon="@drawable/lampara"
+            android:title="Iluminación" />
+        <item
+            android:id="@+id/dir_textil"
+            android:icon="@drawable/cojines"
+            android:title="Textil" />
+    </group>
+
+
+</menu>

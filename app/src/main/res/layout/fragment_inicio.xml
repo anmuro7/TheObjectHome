@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toni.app_the_object_home.Inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/banner5"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/separador11"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/separador12"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorAmarillo"
+                android:src="@android:drawable/divider_horizontal_bright"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner5"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/banner4"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/separador10"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/separador11"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorAmarillo"
+                android:src="@android:drawable/divider_horizontal_bright"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner4"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/banner3"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/separador9"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/separador10"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorAmarillo"
+                android:src="@android:drawable/divider_horizontal_bright"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner3"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/banner2"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/separador4"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/separador9"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorAmarillo"
+                android:src="@android:drawable/divider_horizontal_bright"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner2"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/banner1"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:src="@drawable/ic_launcher_background"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/separador4"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorAmarillo"
+                android:src="@android:drawable/divider_horizontal_bright"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/banner1"
+                tools:ignore="MissingConstraints" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</FrameLayout>

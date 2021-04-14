@@ -1,0 +1,4 @@
+#Wed Jan 10 19:05:02 CET 2018
+base.0=E\:\\TFG\\aplicacio\\App_The_Object_Home\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+renamed.0=classes.dex
+file.0=E\:\\TFG\\aplicacio\\App_The_Object_Home\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19\\classes.dex

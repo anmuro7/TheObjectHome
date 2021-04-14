@@ -1,0 +1,172 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toni.app_the_object_home.Ficha">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constrainLayoutFicha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/separador3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorAmarillo"
+                    android:src="@android:drawable/divider_horizontal_bright"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleDescripcion"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/titleDescripcion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="60dp"
+                    android:text="DESCRIPCIÓN"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/precioEnFicha" />
+
+                <ImageView
+                    android:id="@+id/separador2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorAmarillo"
+                    android:src="@android:drawable/divider_horizontal_bright"
+                    app:layout_constraintTop_toBottomOf="@+id/fotoFicha"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <Button
+                    android:id="@+id/buttonMas"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/boton_redondo"
+                    android:text="+"
+                    android:textColor="@color/colorFondo"
+                    app:layout_constraintStart_toEndOf="@+id/cantidadFicha"
+                    app:layout_constraintTop_toBottomOf="@+id/separador2" />
+
+                <ImageView
+                    android:id="@+id/fotoFicha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="352dp"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_launcher_background"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/productoEnFicha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/separador2" />
+
+                <TextView
+                    android:id="@+id/precioEnFicha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/productoEnFicha" />
+
+                <Button
+                    android:id="@+id/buttonCompra"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="27dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="45dp"
+                    android:background="@color/colorAmarillo"
+                    android:text="COMPRAR"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/descripcionEnFicha" />
+
+                <TextView
+                    android:id="@+id/descripcionEnFicha"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="5dp"
+                    android:text="TextView"
+                    android:textAlignment="textStart"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleDescripcion" />
+
+
+                <EditText
+                    android:id="@+id/cantidadFicha"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="42dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/buttonMenos"
+                    app:layout_constraintTop_toBottomOf="@+id/separador2" />
+
+                <Button
+                    android:id="@+id/buttonMenos"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="132dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/boton_redondo"
+                    android:text="-"
+                    android:textColor="@color/colorFondo"
+                    app:layout_constraintStart_toEndOf="@+id/precioEnFicha"
+                    app:layout_constraintTop_toBottomOf="@+id/separador2" />
+
+            </android.support.constraint.ConstraintLayout>
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
